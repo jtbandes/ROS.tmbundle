@@ -37,10 +37,16 @@
 			<string>#other-constant</string>
 		</dict>
 		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>invalid.illegal.unknown.ros-msg</string>
+				</dict>
+			</dict>
 			<key>match</key>
-			<string>.+</string>
-			<key>name</key>
-			<string>invalid.illegal.unknown.ros-msg</string>
+			<string>\s*(\S.*)</string>
 		</dict>
 	</array>
 	<key>repository</key>
