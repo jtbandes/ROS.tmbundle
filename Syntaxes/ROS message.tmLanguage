@@ -46,7 +46,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>\s*(\S.*)</string>
+			<string>\s*([^#\s].*)</string>
 		</dict>
 	</array>
 	<key>repository</key>
